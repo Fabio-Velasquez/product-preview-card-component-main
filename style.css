@@ -11,8 +11,8 @@ body {
     flex-direction: row;
     background-color: hsl(0, 0%, 100%);
     @media screen and (max-width: 375px){
-        display: flex;
         flex-direction: column;
+        height: 40rem;
     }
 }
 .product-image {
@@ -21,7 +21,7 @@ body {
     border-radius: 12px 0 0 12px;
     @media screen and (max-width: 375px){
         width: 100%;
-        height: 70%;
+        height: 50%;
         border-radius: 12px 12px 0 0;
     }
 }
@@ -37,7 +37,10 @@ body {
     margin: 15px;
     width: 50%;
     @media screen and (max-width: 375px){
+        margin: 10px 0 0 10px;
+        height: 50%;
         width: 100%;
+        border-radius: 0px 0px 12px 12px;
     }
 }
 .product-title {
@@ -80,6 +83,7 @@ body {
     color: hsl(158, 36%, 37%);
     font-weight: 700;
     font-family: 'Fraunces', sans-serif;
+
 }
 .card-current-price {
     text-decoration: line-through;
@@ -88,6 +92,9 @@ body {
     font-family: 'Fraunces', sans-serif;
     font-size: .8rem;
     padding-top: 8px;
+    @media screen and (max-width: 375px){
+        font-size: .9rem;
+    }
 }
 .card-button {
     display: flex;
@@ -95,6 +102,12 @@ body {
     align-items: center;
     height: 20%;
     width: 100%;
+    @media screen and (max-width: 375px){
+        width: 90%;
+        margin:0;
+        padding: 0;
+
+    }
 }
 .button {
     width: 90%;
@@ -109,6 +122,12 @@ body {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     background-color:  hsl(158, 36%, 37%);
+    @media screen and (max-width: 375px){
+        width: 90%;
+        margin:0;
+        padding: 0;
+
+    }
 }
 .card-button > p{
     font-family: 'Montserrat', sans-serif ;
