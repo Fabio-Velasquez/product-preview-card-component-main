@@ -2,6 +2,8 @@ body {
     background-color: #fff7b8;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .card {
     width: 30rem;
